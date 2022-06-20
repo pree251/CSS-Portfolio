@@ -1,6 +1,6 @@
 a {
-    color: #B8B5FF;
-    text-decoration: none;
+  color: #b8b5ff;
+  text-decoration: none;
 }
 
 a:hover {
@@ -10,46 +10,46 @@ a:hover {
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .bio {
-  width:30%;
-  margin:auto;
+  width: 30%;
+  margin: auto;
 }
 
 .button {
-  background-color: #7868E6;
-  border: solid #337FED 0;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 8px;
-   color: #FFFFFF;
-   font-family: Times New Roman;
-   font-size: 20px;
-   font-weight: 100;
-   padding: 10px 20px 10px 20px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+  background-color: #7868e6;
+  border: solid #337fed 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: Times New Roman;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .button:hover {
-   border: solid #337FED 1px;
-   background: #7868E6;
-   background-image: -webkit-linear-gradient(top, #7868E6, #3D94F6);
-   background-image: -moz-linear-gradient(top, #7868E6, #3D94F6);
-   background-image: -ms-linear-gradient(top, #7868E6, #3D94F6);
-   background-image: -o-linear-gradient(top, #7868E6, #3D94F6);
-   background-image: -webkit-gradient(to bottom, #7868E6, #3D94F6);
-   text-decoration: none;
+  border: solid #337fed 1px;
+  background: #7868e6;
+  background-image: -webkit-linear-gradient(top, #7868e6, #3d94f6);
+  background-image: -moz-linear-gradient(top, #7868e6, #3d94f6);
+  background-image: -ms-linear-gradient(top, #7868e6, #3d94f6);
+  background-image: -o-linear-gradient(top, #7868e6, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #7868e6, #3d94f6);
+  text-decoration: none;
 }
 
 .bottom-container {
-    background-color: #7868E6;
-    padding: 40px 0 20px;
-    font-family: 'Montserrat', sans-serif;
+  background-color: #7868e6;
+  padding: 40px 0 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .computer {
@@ -59,15 +59,18 @@ body {
 }
 
 .cloud1 {
-  position: absolute;
-  right: 250px;
-  top: 40px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  float: right;
+  margin-right: 300px;
 }
 
 .cloud2 {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 300px;
 }
 
 .contact-msg {
@@ -75,7 +78,7 @@ body {
 }
 
 .copyright {
-  color: #EDEEF7;
+  color: #edeef7;
   font-size: 0.75rem;
   padding: 20px 0 0 0;
 }
@@ -87,7 +90,7 @@ body {
 }
 
 .footer-link {
-  color: #B8B5FF;
+  color: #b8b5ff;
   margin: 10px 20px;
 }
 
@@ -97,24 +100,24 @@ h1 {
   font-size: 5.625rem;
   /* use rem as that is most adaptable and error-free*/
   /* if 100% is 16 px, then 90 px would be (90/16)*100 i.e 562.5% */
-  font-family: 'Dancing Script', cursive;
-  color: #7868E6;
+  font-family: "Dancing Script", cursive;
+  color: #7868e6;
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 2.1875rem;
-  color: #7868E6;
+  color: #7868e6;
   padding-bottom: 10px;
 }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
-  color: #B8B5FF;
+  font-family: "Raleway", sans-serif;
+  color: #b8b5ff;
 }
 
 hr {
-  color: #81F5FF;
+  color: #81f5ff;
   border-width: 10px;
   border-style: none;
   border-top-style: dotted;
@@ -126,8 +129,12 @@ hr {
   margin: 100px 0;
 }
 
+.mountain {
+  max-width: 100%;
+}
+
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .profilepic {
@@ -135,7 +142,7 @@ p {
 }
 
 p {
-    line-height: 2;
+  line-height: 2;
 }
 
 .problem-solving {
@@ -145,9 +152,9 @@ p {
 }
 
 .subtitle {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 2.1875rem;
-  color: #7868E6;
+  color: #7868e6;
   font-weight: normal;
 }
 
@@ -164,9 +171,9 @@ p {
 }
 
 .top-container {
-  background-color: #E4FBFF;
+  background-image: linear-gradient(to top, #cff2ff, rgb(149, 198, 255));
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .ui-ux {
